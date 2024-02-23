@@ -19,91 +19,91 @@ const products=[
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:2,
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:3,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:4,
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:5,
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:6,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:4,
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:5,
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:6,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:4,
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:5,
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:6,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:4,
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:5,
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     {id:6,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg"
+        image:"../images/OIP.jpg"
     },
     
 ]
