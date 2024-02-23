@@ -86,10 +86,10 @@ function goPageDetails(id){
         let item=products.find(item=>item.id===id)
 
         localStorage.setItem('itemProduct',JSON.stringify(item))
-        window.location=`/detailsCard/detailsCard.html`
+        window.location=`../detailsCard/detailsCard.html`
     }
     else{
-        window.location='/login/login.html'
+        window.location='../login/login.html'
     }
 }
 
