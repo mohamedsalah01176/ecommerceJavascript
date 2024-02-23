@@ -19,5 +19,5 @@ image.innerHTML =`<img class="w-100 h-100  rounded-circle"   src="${localImage}"
 
 
 function edit(){
-    window.location="/editProfile/editProfile.html"
+    window.location="../editProfile/editProfile.html"
 }
