@@ -13,7 +13,7 @@ submit.addEventListener('click',function(e){
     else{
         if(email.value === localEmail && password.value === localPassword){
             setTimeout(()=>{
-                window.location="/home/home.html"
+                window.location="../home/home.html"
             },1500)
         }
     }
