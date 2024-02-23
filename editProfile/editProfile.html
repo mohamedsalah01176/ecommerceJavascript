@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./editProfile.module.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 ">
+        <div class="container ">
+            <a class="navbar-brand fs-2 logo" href="/home/home.html">MS</a>
+            
+            
+                <ul class="   gap-3 align-items-center mt-3 unFoundUser" id="unFoundUser">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="/login/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/regiter/register.html">Register</a>
+                    </li>
+                </ul>
+                <ul class="  gap-3 align-items-center mt-3 fs-5 foundUser ps-0"  id="foundUser">
+                    <li class="d-flex align-items-center gap-1">
+                        <i class="fa-solid fa-cart-shopping iconCart">(<span id="numcard"></span>)</i>
+                        <div class="d-flex  flex-column ">
+                            <a href="/myCart/myCart.html" class="btn btn-primary mb-2 ">veiw Cart</a>
+                            <a href="/pageFavorate/favorate.html" class="btn btn-danger mb-2 ">veiw favorate</a>
+                        </div>
+                        <div class=" textCard text-center">
+                        </div>
+                    </li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li id="user"></li>
+                    <li ><i class="fa-solid fa-right-from-bracket logout"></i></li>
+                    
+                </ul>
+            
+        </div>
+    </nav>
+
+    
+    <section class="container  hught">
+        <form class="d-flex flex-column  justify-content-center  align-items-center " action="">
+            <h3 class="text-primary mb-3">Edite Product</h3>
+            <input type="text" placeholder="UserName" id="userName" >
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <input type="file" placeholder="enter your image" id="image">
+            <button type="submit" class="btn btn-success mt-2" id="edite">Edite</button>
+        </form>
+    </section>
+
+
+
+
+    <footer class="text-center fs-3"  >
+        Made By <span>Mohamed Salah</span> &copy;2024
+    </footer>
+
+
+    <script src="./editProfile.js"></script>
+</body>
+</html>

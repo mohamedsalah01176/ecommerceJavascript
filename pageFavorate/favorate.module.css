@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  border-bottom: 2px solid blue;
+  box-shadow: 1px 7px 10px #ccc;
+}
+nav .logo {
+  transition: 0.5s;
+}
+nav .logo:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+@media (max-width: 480px) {
+  nav .logo {
+    width: 100%;
+    text-align: center;
+  }
+}
+nav .nav-link {
+  transition: 0.5s;
+  font-size: 18px;
+}
+nav .nav-link:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+nav .unFoundUser {
+  display: none;
+}
+nav .foundUser {
+  display: none;
+  position: relative;
+}
+nav .foundUser .textCard {
+  position: absolute;
+  top: 50px;
+  display: none;
+  transform: translateX(-40%);
+  background-color: rgb(155, 155, 164);
+  padding: 20px 15px;
+  width: 300px;
+  overflow-y: scroll;
+  height: 70vh;
+}
+nav .foundUser .iconCart {
+  cursor: pointer;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.cards {
+  background-color: #ececec;
+  box-shadow: 1px 4px 10px rgb(136, 136, 136);
+  padding: 0px 15px 15px;
+  border-radius: 10px;
+}
+.cards .image {
+  cursor: pointer;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 300px;
+  border-bottom: 2px solid green;
+}
+
+footer {
+  border-top: 2px solid blue;
+  box-shadow: 1px -7px 10px #ccc;
+  padding: 30px 15px;
+}
+footer span {
+  color: blue;
+}/*# sourceMappingURL=favorate.module.css.map */

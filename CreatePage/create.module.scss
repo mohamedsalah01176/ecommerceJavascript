@@ -1,0 +1,105 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    border-bottom:2px solid blue ;
+    box-shadow: 1px 7px 10px #ccc;
+    .logo{
+        transition: .5s;
+        &:hover{
+            color: blue;
+            transform: scale(1.1);
+        }
+        @media (max-width:480px){
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .nav-link{
+        transition: .5s;
+        font-size: 18px;
+        &:hover{
+            color: blue;
+            transform: scale(1.1);
+        }
+    }
+    .unFoundUser{
+        display: none;
+    }
+    .foundUser{
+        display: none;
+        position: relative;
+        .textCard{
+            position: absolute;
+            top: 80px;
+            display: none;
+            transform: translateX(-40%);
+            background-color: rgb(155, 155, 164);
+            padding: 20px 15px;
+            width: 300px;
+            overflow-y: scroll;
+            height: 70vh;
+        }
+        .iconCart{
+            cursor: pointer;
+        }
+    }
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.cards{
+    background-color: #ececec;
+    box-shadow: 1px 4px 10px rgb(136, 136, 136);
+    padding: 0px 15px 15px;
+    border-radius: 10px;
+    .image{
+        cursor: pointer;
+    }
+}
+ul{
+    list-style: none;
+}
+.hught{
+    
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.608);
+    max-width: 100% ;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    width:500px;
+    padding: 10px 4px;
+    margin-bottom:7px ;
+    border: none;
+    border-bottom: 2px solid blue;
+    background-color: #e9e9e971;
+    border-radius: 5px;
+    outline: none;
+    color:white;
+}
+input::placeholder{
+    color:rgb(237, 237, 237)
+}
+@media (max-width: 600px) {
+    input{
+        width:300px;
+    }
+    
+}
+footer{
+    border-top:2px solid blue ;
+    box-shadow: 1px -7px 10px #ccc;
+    padding: 30px 15px;
+    span{
+        color: blue;
+    }
+}

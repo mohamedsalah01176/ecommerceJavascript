@@ -1,0 +1,119 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    border-bottom:2px solid blue ;
+    box-shadow: 1px 7px 10px #ccc;
+    .logo{
+        transition: .5s;
+        &:hover{
+            color: blue;
+            transform: scale(1.1);
+        }
+        @media (max-width:480px){
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .nav-link{
+        transition: .5s;
+        font-size: 18px;
+        &:hover{
+            color: blue;
+            transform: scale(1.1);
+        }
+    }
+    .unFoundUser{
+        display: none;
+    }
+    .foundUser{
+        display: none;
+        position: relative;
+        .textCard{
+            position: absolute;
+            top: 50px;
+            display: none;
+            transform: translateX(-40%);
+            background-color: rgb(155, 155, 164);
+            padding: 20px 15px;
+            width: 300px;
+            overflow-y: scroll;
+            height: 70vh;
+        }
+        .iconCart{
+            cursor: pointer;
+        }
+    }
+}
+
+.logout{
+    cursor: pointer;
+}
+
+
+
+
+.iconCreate{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    width: 40px;
+    background-color: rgb(72, 72, 248);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+    &:hover{
+        background-color: blue  ;
+    }
+}
+
+.topProduct{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    max-width: 100%;
+    .filter{
+        text-align: left;
+        // width:100px;
+            select{
+                width: 50%;
+            }
+        
+    }
+}
+ 
+@media (max-width:700px){
+    .topProduct{
+        display: block;
+        margin-bottom: 10px;
+        .filter{
+            margin: auto;
+            width:100px;
+            select{
+                width: 100%;
+            }
+        }
+    }
+     
+
+}
+
+.image{
+    
+    height: 200px;
+    width: 200px;
+} 
+footer{
+    border-top:2px solid blue ;
+    box-shadow: 1px -7px 10px #ccc;
+    padding: 30px 15px;
+    span{
+        color: blue;
+    } 
+}
