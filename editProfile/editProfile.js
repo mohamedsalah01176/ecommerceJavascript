@@ -22,7 +22,7 @@ btnEdite.addEventListener('click',function(){
         localStorage.setItem("password",password.value)
         localStorage.setItem("image",imageUrl)
         setTimeout(()=>{
-            window.location="/profile/profile.html"
+            window.location="../profile/profile.html"
         })
     }
 
