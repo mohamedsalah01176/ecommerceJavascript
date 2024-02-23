@@ -17,7 +17,7 @@ submit.addEventListener('click',function(e){
         localStorage.setItem("password",password.value)
         localStorage.setItem("image",imageUrl)
         setTimeout(()=>{
-            window.location="/login/login.html"
+            window.location="../login/login.html"
         },1500)
 
     }
