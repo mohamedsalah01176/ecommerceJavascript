@@ -36,7 +36,7 @@ const products=[
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:".../images/OIP.jpg",
+        image:"../images/OIP.jpg",
         quintity:0,
         isMe:"n"
         
