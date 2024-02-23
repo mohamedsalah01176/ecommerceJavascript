@@ -159,7 +159,7 @@ function addToCart(id){
         numcard.innerHTML=arraypro.length
     }
     else{
-        window.location="/regiter/register.html"
+        window.location="../regiter/register.html"
     }
 }
 
