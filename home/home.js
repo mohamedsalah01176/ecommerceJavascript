@@ -154,7 +154,7 @@ function addToCart(id){
         
     }
     else{
-        window.location="/regiter/register.html"
+        window.location="../regiter/register.html"
     }
     // window.location.reload()
 }
@@ -196,12 +196,12 @@ iconCart.addEventListener('click', function(){
 
 function goPageDetails(id){
     if(localEmail && localPassword){
-        window.location=`/detailsCard/detailsCard.html`
+        window.location=`../detailsCard/detailsCard.html`
         let item=products.find(item=>item.id===id)
         localStorage.setItem('itemProduct',JSON.stringify(item))
     }
     else{
-        window.location='/login/login.html'
+        window.location='../login/login.html'
     }
 }
 
@@ -266,7 +266,7 @@ function addFavioret(id){
         
     }
     else{
-        window.location="/regiter/register.html"
+        window.location="../regiter/register.html"
     }
     // window.location.reload()
 }
@@ -294,7 +294,7 @@ titleFliter.addEventListener('change',function(e){
 function editeProduct(id){
     localStorage.setItem("idEdite",id)
     setTimeout(()=>{
-        window.location='/editeProduct/editeProduct.html'
+        window.location='../editeProduct/editeProduct.html'
     })
 }
 
