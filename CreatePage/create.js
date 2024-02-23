@@ -35,7 +35,7 @@ const products=[
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/OIP.jpg",
+        image:"../images/OIP.jpg",
         quintity:0,
         isMe:"n"
         
@@ -44,14 +44,14 @@ const products=[
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/download.jpg",
+        image:"../images/download.jpg",
         quintity:0
     },
     {id:3,
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/lenovo_59418226_y50_i7_4700hq_8gb_1tb_windows8_1pro_15_6_1073172.jpg",
+        image:"../images/lenovo_59418226_y50_i7_4700hq_8gb_1tb_windows8_1pro_15_6_1073172.jpg",
         quintity:0,
         isMe:"n"
     },
@@ -59,7 +59,7 @@ const products=[
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/812NShN3MpL._SL1500_.jpg",
+        image:"../images/812NShN3MpL._SL1500_.jpg",
         quintity:0,
         isMe:"n"
     },
@@ -67,7 +67,7 @@ const products=[
         title:"Dell",
         price:150,
         discraption:"this is the best laptop",
-        image:"/images/IMG_3458-e1583333763395-2048x1365.webp",
+        image:"../images/IMG_3458-e1583333763395-2048x1365.webp",
         quintity:0,
         isMe:"n"
     },
@@ -75,7 +75,7 @@ const products=[
         title:"HP",
         price:90,
         discraption:"this is the best laptop",
-        image:"/images/R.jpg",
+        image:"../images/R.jpg",
         quintity:0,
         isMe:"n"
     },
@@ -83,7 +83,7 @@ const products=[
         title:"Lenovo",
         price:100,
         discraption:"this is the best laptop",
-        image:"/images/71HRMr3uAwL._SL1500_.jpg",
+        image:"../images/71HRMr3uAwL._SL1500_.jpg",
         quintity:0,
         isMe:"n"
     },
