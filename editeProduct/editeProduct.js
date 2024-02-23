@@ -115,7 +115,7 @@ upload.addEventListener('click',function(e){
     localStorage.setItem("productStatic",JSON.stringify(prductsStatic))
 
     setTimeout(()=>{
-        window.location='/home/home.html'
+        window.location='../home/home.html'
     },1000)
 })
 
